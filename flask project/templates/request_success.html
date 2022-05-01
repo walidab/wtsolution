@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+{% block body %}
+  <!-- Secondary menu
+  ============================================= -->
+  <div class="bg-primary">
+    <div class="container d-flex justify-content-center">
+      <ul class="nav nav-pills alternate nav-lg border-bottom-0">
+        <li class="nav-item"> <a class="nav-link" href="send-money">Send</a></li>
+        <li class="nav-item"> <a class="nav-link active" href="request_money">Request</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Secondary menu end --> 
+  
+  <!-- Content
+  ============================================= -->
+  <div id="content" class="py-4">
+    <div class="container"> 
+      
+      <!-- Steps Progress bar -->
+      <div class="row mt-4 mb-5">
+        <div class="col-lg-11 mx-auto">
+          <div class="row widget-steps">
+            <div class="col-4 step complete">
+              <div class="step-name">Details</div>
+              <div class="progress">
+                <div class="progress-bar"></div>
+              </div>
+              <span class="step-dot"></span> </div>
+            <div class="col-4 step complete">
+              <div class="step-name">Confirm</div>
+              <div class="progress">
+                <div class="progress-bar"></div>
+              </div>
+              <span class="step-dot"></span> </div>
+            <div class="col-4 step complete">
+              <div class="step-name">Success</div>
+              <div class="progress">
+                <div class="progress-bar"></div>
+              </div>
+              <span class="step-dot"></span> </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="fw-400 text-center mt-3 mb-4">Request Money</h2>
+      <div class="row">
+        <div class="col-md-9 col-lg-7 col-xl-6 mx-auto"> 
+          <!-- Request Money Success
+          ============================================= -->
+          <div class="bg-white text-center shadow-sm rounded p-3 pt-sm-4 pb-sm-5 px-sm-5 mb-4">
+            <div class="my-4">
+              <p class="text-success text-20 lh-1"><i class="fas fa-check-circle"></i></p>
+              <p class="text-success text-8 fw-500 lh-1">Success!</p>
+              <p class="lead">Transactions Complete</p>
+            </div>
+            <p class="text-3 mb-4">You've successfully <span class="text-4 fw-500">$1000</span> Request Money to <span class="fw-500">demo@gmail.com</span>, See transaction details under <a class="btn-link" href="#">Activity</a>.</p>
+            <div class="d-grid"><button class="btn btn-primary">Request Money Again</button></div>
+            <a class="text-3 d-inline-block btn-link mt-4" href="#"><i class="fas fa-print"></i> Print</a> </div>
+          <!-- Request Money Success end --> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Content end --> 
+  
+  <!-- Footer
+  ============================================= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg d-lg-flex align-items-center">
+          <ul class="nav justify-content-center justify-content-lg-start text-3">
+            <li class="nav-item"> <a class="nav-link active" href="#">About Us</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Support</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Help</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Careers</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Affiliate</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Fees</a></li>
+          </ul>
+        </div>
+        <div class="col-lg d-lg-flex justify-content-lg-end mt-3 mt-lg-0">
+          <ul class="social-icons justify-content-center">
+            <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-icons-google"><a data-bs-toggle="tooltip" href="http://www.google.com/" target="_blank" title="Google"><i class="fab fa-google"></i></a></li>
+            <li class="social-icons-youtube"><a data-bs-toggle="tooltip" href="http://www.youtube.com/" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright pt-3 pt-lg-2 mt-2">
+        <div class="row">
+          <div class="col-lg">
+            <p class="text-center text-lg-start mb-2 mb-lg-0">Copyright &copy; 2022 <a href="#">Payyed</a>. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg d-lg-flex align-items-center justify-content-lg-end">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"> <a class="nav-link active" href="#">Security</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#">Terms</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end --> 
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back to Top
+============================================= --> 
+<a id="back-to-top" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- Styles Switcher -->
+<div id="styles-switcher" class="left">
+  <h2 class="text-3">Color Switcher</h2>
+  <hr>
+  <ul>
+    <li class="blue" data-bs-toggle="tooltip" title="Blue" data-path="css/color-blue.css"></li>
+	<li class="indigo" data-bs-toggle="tooltip" title="Indigo" data-path="css/color-indigo.css"></li>
+    <li class="purple" data-bs-toggle="tooltip" title="Purple" data-path="css/color-purple.css"></li>
+	<li class="pink" data-bs-toggle="tooltip" title="Pink" data-path="css/color-pink.css"></li>
+	<li class="red" data-bs-toggle="tooltip" title="Red" data-path="css/color-red.css"></li>
+    <li class="orange" data-bs-toggle="tooltip" title="Orange" data-path="css/color-orange.css"></li>
+	<li class="yellow" data-bs-toggle="tooltip" title="Yellow" data-path="css/color-yellow.css"></li>
+	<li class="teal" data-bs-toggle="tooltip" title="Teal" data-path="css/color-teal.css"></li>
+    <li class="cyan" data-bs-toggle="tooltip" title="Cyan" data-path="css/color-cyan.css"></li>
+    <li class="brown" data-bs-toggle="tooltip" title="Brown" data-path="css/color-brown.css"></li>
+  </ul>
+  <button class="btn btn-dark btn-sm border-0 fw-400 rounded-0 shadow-none" data-bs-toggle="tooltip" title="Green" id="reset-color">Reset Default</button>
+  <button class="btn switcher-toggle"><i class="fas fa-cog"></i></button>
+</div>
+<!-- Styles Switcher End --> 
+
+<!-- Script --> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script> 
+<!-- Style Switcher --> 
+<script src="js/switcher.min.js"></script> 
+<script src="js/theme.js"></script>
+</body>
+</html>
+{% endblock %}
