@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block body %}
+Client ID: 4094325
+Login email: waitbachir@gmail.com
+
+
+<form action="{{ url_for('result') }}" method="POST">
+
+    <label for="adj" class="form-label">adjectif</label>
+        <select class="form-select" id="adj" name="adj">
+            <option value="1" name="je">je</option>
+            <option value="2" name="tu" >tu</option>
+            <option value="3">il</option>
+            <option value="4">ils</option>
+            <option value="5">nous</option>
+            <option value="4">vous</option>
+
+
+    <input name="name" type="text" value="" class="names" data-bv-field="emailid" id="name" required
+        placeholder="Enter name">
+        
+        <button href="#" class="btn btn-primary">Continue</button>
+
+        </form>
+
+        <h2>
+            le mot  '{{verb1}}' en tamazighth : {{nume}}
+         </h2>
+        
+         {{tu}}
+
+        
+
+        {% endblock %}
